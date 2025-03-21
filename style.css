@@ -1,0 +1,79 @@
+body {
+    background-image: url('/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Caveat", cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+}
+
+.wrapper {
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(240, 248, 255, 0.295);
+max-width: 80%;
+border-radius: 10px;
+margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.input-wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-textarea {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px gray solid;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.add-task {
+    border-radius: 10px;
+    border: 1px gray solid;
+    background-color: rgb(5, 102, 102);
+    color: white;
+    font-size: 24px;
+}
+
+.task-list {
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+    width: 50%;
+    font-size: 32px;
+}
+
+.clean-list {
+    margin: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px gray solid;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(5, 102, 102); 
+}
